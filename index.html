@@ -26,6 +26,15 @@
       <p class="text-start">
         This code defines a function reformatLicenseKey that takes the input string s and integer k, removes existing dashes, converts to uppercase, and then reformats the string according to the specified rules
       </p>
+
+      <label for="licenseKey">License Key:</label>
+      <input type="text" id="licenseKey" placeholder="Enter license key">
+      <br>
+      <label for="groupSize">Group Size:</label>
+      <input type="number" id="groupSize" placeholder="Enter group size">
+      <br>
+      <button onclick="reformatLicenseKey()">Reformat</button>
+      <div id="result"></div>
     </main>
 
     <footer class="footer footer-dark">
